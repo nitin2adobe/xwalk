@@ -1,0 +1,17 @@
+{
+  "status": "success",
+  "url": "https://www.abbvie.com/who-we-are/operating-with-integrity/responsible-supply-chain.html",
+  "path": "who-we-are/operating-with-integrity/responsible-supply-chain",
+  "timestamp": "2026-02-25T11:42:49.824Z",
+  "title": "Responsible Supply Chain | AbbVie",
+  "template": "responsible-supply-chain",
+  "blocks": [
+    "hero",
+    "columns",
+    "columns",
+    "columns",
+    "columns",
+    "accordion",
+    "cards"
+  ]
+}
