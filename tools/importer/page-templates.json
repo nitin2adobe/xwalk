@@ -150,6 +150,120 @@
           ]
         }
       ]
+    },
+    {
+      "name": "our-people",
+      "urls": [
+        "https://www.abbvie.com/science/our-people.html"
+      ],
+      "description": "Science people page showcasing key scientists, researchers and leaders at AbbVie",
+      "blocks": [
+        {
+          "name": "hero",
+          "instances": [
+            "#maincontent > .aem-Grid > div:nth-child(1)",
+            "#maincontent > .aem-Grid > div.video.aem-GridColumn"
+          ]
+        },
+        {
+          "name": "columns",
+          "instances": [
+            ".grid.no-bottom-margin",
+            ".grid.cmp-grid-custom.no-bottom-margin",
+            ".grid:not(.cmp-grid-custom):not(.no-bottom-margin)",
+            "#maincontent > .aem-Grid > div:nth-child(4) .grid",
+            "#maincontent > .aem-Grid > div:nth-child(7) .grid.cmp-grid-custom"
+          ]
+        },
+        {
+          "name": "quote",
+          "instances": [
+            ".container.semi-transparent-layer"
+          ]
+        },
+        {
+          "name": "accordion",
+          "instances": [
+            ".accordion.panelcontainer"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-0",
+          "name": "Hero Image",
+          "selector": "#maincontent > .aem-Grid > div:nth-child(1)",
+          "style": null,
+          "blocks": [
+            "hero"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-1",
+          "name": "Page Title with Breadcrumb",
+          "selector": "#maincontent > .aem-Grid > div:nth-child(2)",
+          "style": "overlap-predecessor",
+          "blocks": [],
+          "defaultContent": [
+            ".cmp-title h1",
+            ".cmp-text p"
+          ]
+        },
+        {
+          "id": "section-2",
+          "name": "Video Grid Section",
+          "selector": "#maincontent > .aem-Grid > div:nth-child(3)",
+          "style": null,
+          "blocks": [
+            "columns",
+            "quote"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3",
+          "name": "Explore R&D Community",
+          "selector": "#maincontent > .aem-Grid > div:nth-child(4)",
+          "style": null,
+          "blocks": [
+            "columns"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-4",
+          "name": "Discovery Files Video",
+          "selector": "#maincontent > .aem-Grid > div.video.aem-GridColumn",
+          "style": "dark-blue",
+          "blocks": [
+            "hero"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-5",
+          "name": "FAQ Accordion",
+          "selector": "#maincontent > .aem-Grid > div:nth-child(6)",
+          "style": null,
+          "blocks": [
+            "accordion"
+          ],
+          "defaultContent": [
+            ".cmp-title h2"
+          ]
+        },
+        {
+          "id": "section-6",
+          "name": "CTA Banner",
+          "selector": "#maincontent > .aem-Grid > div:nth-child(7)",
+          "style": "dark-blue",
+          "blocks": [
+            "columns"
+          ],
+          "defaultContent": []
+        }
+      ]
     }
   ]
 }
